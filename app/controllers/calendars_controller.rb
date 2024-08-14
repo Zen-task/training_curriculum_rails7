@@ -48,7 +48,6 @@ class CalendarsController < ApplicationController
         wday:  wdays[wday_num] #wdaysから値を取り出す記述
       }
       
-
       @week_days.push(days)
     end
 
